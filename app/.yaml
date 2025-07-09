@@ -1,0 +1,10 @@
+scripts:
+  - name: "Verificar archivos"
+    script: |
+      ls -l
+  - name: "Instalar dependencias"
+    script: |
+      ./gradlew clean
+  - name: "Compilar APK"
+    script: |
+      ./gradlew assembleDebug
